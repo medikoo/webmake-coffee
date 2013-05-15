@@ -1,0 +1,39 @@
+{
+  "name": "webmake-coffee",
+  "version": "0.1.0",
+  "description": "Develop CoffeeScript applications for browser with Webmake",
+  "keywords": [
+    "browser",
+    "browserify",
+    "cs",
+    "coffeescript",
+    "bundle",
+    "cjs",
+    "commonjs",
+    "deploy",
+    "make",
+    "require",
+    "web",
+    "webmake"
+  ],
+  "author": "Mariusz Nowak <medikoo+webmake-coffee@medikoo.com> (http://www.medikoo.com/)",
+  "scripts": {
+    "test": "node ./node_modules/tad/bin/tad"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/medikoo/webmake-coffee.git"
+  },
+  "bugs": {
+    "email": "medikoo+webmake-coffee@medikoo.com",
+    "url": "https://github.com/medikoo/webmake-coffee/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+  "devDependencies": {
+    "webmake": "~0.3.16",
+    "tad": "~0.1.15"
+  },
+  "license": "MIT"
+}
