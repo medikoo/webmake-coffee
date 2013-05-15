@@ -1,8 +1,8 @@
 # webmake-coffee
 
-## Develop [CoffeeScript](http://coffeescript.org/) applications for browser with [Webmake](https://github.com/medikoo/modules-webmake)
+## Develop [CoffeeScript](http://coffeescript.org/) applications with [Webmake](https://github.com/medikoo/modules-webmake)
 
-__[Full support for Source Maps](#sourcemaps)__
+__[Full support for Source Maps](#source-maps)__
 
 To use this extension, install it aside of Webmake:
 
@@ -34,7 +34,7 @@ webmake(inputPath, { ext: ['coffee', 'otherext'] }, cb);
 
 ### Source Maps
 
-To benefit from sourcemaps, just run webmake with turned on _sourcemap_ option:
+Benefit from source maps by turning on _sourcemap_ option:
 
     $ webmake --ext=coffee --sourcemap program.coffee bundle.js
 
@@ -46,7 +46,7 @@ webmake(inputPath, { ext: 'coffee', sourceMap: true }, cb);
 
 ### Cache
 
-When using with [Webmake binded to server](https://github.com/medikoo/modules-webmake#development-with-webmake), make sure to rely on [caching](https://github.com/medikoo/modules-webmake#cache-boolean-programmatical-usage-only), then only changed files will be recompiled on request.
+When using with [Webmake that's binded to server](https://github.com/medikoo/modules-webmake#development-with-webmake) make sure to rely on [caching](https://github.com/medikoo/modules-webmake#cache-boolean-programmatical-usage-only), then only changed files will be recompiled on request.
 
 ## Tests [![Build Status](https://api.travis-ci.org/medikoo/webmake-coffee.png?branch=master)](https://travis-ci.org/medikoo/webmake-coffee)
 
