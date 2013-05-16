@@ -41,7 +41,7 @@ webmake(inputPath, { ext: ['coffee', 'otherext'] }, cb);
 
 ### Source Maps
 
-Remember about _sourcemap_ option if you want to benefit from source maps:
+Turn _sourcemap_ option on if you want to benefit from source maps:
 
     $ webmake --ext=coffee --sourcemap program.coffee bundle.js
 
