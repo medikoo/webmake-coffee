@@ -3,6 +3,7 @@
 var parse = require('coffee-script').compile;
 
 exports.extension = 'coffee';
+exports.type = 'js';
 exports.compile = function (src, options) {
 	var opts = { bare: true }, code, data, map;
 	if (!options.sourceMap) return { code: parse(src, opts) };

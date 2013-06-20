@@ -31,8 +31,11 @@
   "dependencies": {
     "coffee-script": "~1.6"
   },
+  "peerDependencies": {
+    "webmake": "~0.3.19"
+  },
   "devDependencies": {
-    "webmake": "~0.3.16",
+    "webmake": "~0.3.19",
     "tad": "~0.1.15"
   },
   "license": "MIT"
