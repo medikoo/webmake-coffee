@@ -19,7 +19,5 @@ exports.compile = function (src, options) {
 
 	code = data.js;
 	if (code[code.length - 1] !== '\n') code += '\n';
-	code += '//# sourceMappingURL=data:application/json;base64,' +
-		new Buffer(map).toString('base64') + '\n';
-	return { code: code };
+	return { code: code, sourceMap: map };
 };
