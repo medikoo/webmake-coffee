@@ -1,6 +1,6 @@
 {
   "name": "webmake-coffee",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Develop CoffeeScript applications for browser with Webmake",
   "keywords": [
     "browser",
@@ -32,11 +32,11 @@
     "coffee-script": "~1.6"
   },
   "peerDependencies": {
-    "webmake": "~0.3.19"
+    "webmake": "~0.3.22"
   },
   "devDependencies": {
-    "webmake": "~0.3.19",
-    "tad": "~0.1.15"
+    "webmake": "~0.3.22",
+    "tad": "~0.1.20"
   },
   "license": "MIT"
 }

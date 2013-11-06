@@ -1,4 +1,9 @@
-v0.1.1  -- 2013.06.21
+v0.1.2  --  2013.11.06
+* Fix source map generation.
+  Great thanks to Simon Williams (@SystemParadox) for reporting the issue to
+  Webmake and explaining issues with generated source maps
+
+v0.1.1  --  2013.06.21
 * Update up to new extensions handling in Webmake
 * Update sourseMappingURL definition so it uses '#' instead of '@'
 
