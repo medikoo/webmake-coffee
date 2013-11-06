@@ -10,8 +10,10 @@ exports.compile = function (src, options) {
 	opts.sourceMap = true;
 	data = parse(src, opts);
 
-	// Include original coffee file in the map.
 	map = JSON.parse(data.v3SourceMap);
+	// Adjust map data
+	map.file = options.generatedFilename;
+	map.sources[0] = options.localFilename;
 	map.sourcesContent = [src];
 	map = JSON.stringify(map);
 
