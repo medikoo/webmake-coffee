@@ -1,3 +1,6 @@
+v0.1.3  --  2013.11.06
+* Pass sourceMap separately from the code
+
 v0.1.2  --  2013.11.06
 * Fix source map generation.
   Great thanks to Simon Williams (@SystemParadox) for reporting the issue to
