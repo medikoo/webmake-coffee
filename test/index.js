@@ -11,5 +11,5 @@ module.exports = function (t, a, d) {
 		a.deep(program.cs1, { solipsism: true, speed: 15, footprints: 'bear' },
 			"#1");
 		a.deep(program.cs2, [1, 2, 3], "#2");
-	}).end(d, d);
+	}).done(d, d);
 };
