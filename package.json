@@ -29,7 +29,7 @@
     "url": "https://github.com/medikoo/webmake-coffee/issues"
   },
   "dependencies": {
-    "coffee-script": "~1.6"
+    "coffee-script": "~1.9.1"
   },
   "peerDependencies": {
     "webmake": "~0.3.23"
